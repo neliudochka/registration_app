@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Rgr" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red2</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">@color/red3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFC107</item>
+        <item name="colorSecondaryVariant">#EC6D45</item>
+        <item name="colorOnSecondary">#6A1C04</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="materialButtonStyle">@style/GlobalButtonStyle</item>
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textViewStyle">@style/GlobalTextViewStyle</item>
+
+    </style>
+
+    <style name="GlobalButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:minWidth">200dp</item>
+        <item name="backgroundTint">#F46C62</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GlobalTextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
